@@ -40,7 +40,7 @@ void Cadastro(TpAgenda Ag[TF],int &TL){
 		scanf("%d%d",&Ag[TL].Fone.DDD,&Ag[TL].Fone.Numero);
 		printf("Data de Nascimento[dd mm aaaa]:");
 		scanf("%d%d%d",&Ag[TL].Data.dia,&Ag[TL].Data.mes,&Ag[TL].Data.ano);
-		printf("Endereço (Rua Numero complemento bairro):");
+		printf("EndereÃ§o (Rua Numero complemento bairro):");
 		scanf("%s%d%s%s",&Ag[TL].Endereco.rua,&Ag[TL].Endereco.Num,&Ag[TL].Endereco.Compl,&Ag[TL].Endereco.Bairro);
 		printf("Localidade [Cidade Estado Pais e Cep]:");
 		scanf("%s%s%s%s",&Ag[TL].Endereco.Cidade,&Ag[TL].Endereco.Estado,&Ag[TL].Endereco.Pais,&Ag[TL].Endereco.Cep);
